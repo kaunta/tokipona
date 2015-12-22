@@ -1,0 +1,1151 @@
+---
+title: A Toki Pona Dictionary
+author: Toki Pona Community
+date: 2015-12-06
+thanksto:
+  - John Lekberg
+entries:
+  - term: a
+    primary:
+      pos: interj.
+      def: Emotional exclamation.
+      sentences:
+        - orig: a a a a!
+          trans: Don't do that.
+        - orig: a a a!
+          trans: Hahaha!
+        - orig: a a!
+          trans: uh oh! OR ah hah!
+    secondary: []
+  - term: akesi
+    primary:
+      pos: n.
+      def: Non-cute animal, reptile, amphibian.
+      sentences:
+        - orig: sina ike! akesi!
+          trans: ""
+        - orig: jan Ton li pilin ala kin monsuta tan akesi.
+          trans: ""
+        - orig: akesi jelo li jan pona pi jan Uluka.
+          trans: ""
+    secondary: []
+  - term: ala
+    primary:
+      pos: mod.
+      def: no, not, none, un-.
+      sentences:
+        - orig: taso mi lon ala
+          trans: ""
+    secondary:
+      - pos: n.
+        defs:
+          - nothing, negation, zero
+      - pos: interj.
+        defs:
+          - no!
+  - term: alasa
+    primary:
+      pos: vt.
+      def: to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - to hunt, to pursue and kill animals to use as food and clothing; to hunt
+  - term: ali
+    primary:
+      pos: n.
+      def: everything, anything, life, the universe
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - all, every, complete, whole
+  - term: anpa
+    primary:
+      pos: n.
+      def: bottom, lower part, under, below, floor, beneath
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - low, lower, bottom, down
+  - term: ante
+    primary:
+      pos: n.
+      def: difference
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - different
+      - pos: conj.
+        defs:
+          - otherwise, or else
+      - pos: vt.
+        defs: change, alter, modify
+  - term: anu
+    primary:
+      pos: conj
+      def: or
+      sentences: []
+    secondary: []
+  - term: awen
+    primary:
+      pos: vi.
+      def: stay, wait, remain
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - keep
+      - pos: mod.
+        defs:
+          - remaining, stationary, permanent, sedentary
+  - term: e
+    primary:
+      pos: sep.
+      def: (introduces a direct object)
+      sentences: []
+    secondary: []
+  - term: en
+    primary:
+      pos: conj.
+      def: and (used to coordinate head nouns)
+      sentences: []
+    secondary: []
+  - term: esun
+    primary:
+      pos: n.
+      def: market, shop
+      sentences: []
+    secondary: []
+  - term: ijo
+    primary:
+      pos: n.
+      def: thing, something, stuff, anything, object
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - of something
+      - pos: vt.
+        defs:
+          - objectify
+  - term: ike
+    primary:
+      pos: mod.
+      def: bad, negative, wrong, evil, overly complex, (figuratively) unhealthy
+      sentences: []
+    secondary:
+      - pos: interj.
+        defs:
+          - oh dear! woe! alas!
+      - pos: n.
+        defs:
+          - negativity, badness, evil
+      - pos: vt.
+        defs:
+          - to make bad, to worsen, to have a negative effect upon
+      - pos: vi.
+        defs:
+          - to be bad, to suck
+  - term: ilo
+    primary:
+      pos: n.
+      def: tool, device, machine, thing used for a specific purpose
+      sentences: []
+    secondary: []
+  - term: insa
+    primary:
+      pos: n.
+      def: inside, inner world, centre, stomach
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - inner, internal
+  - term: jaki
+    primary:
+      pos: mod.
+      def: dirty, gross, filthy
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - dirt, pollution, garbage, filth
+      - pos: vt.
+        defs:
+          - pollute, dirty
+      - pos: interj.
+        defs:
+          - ew! yuck!
+  - term: jan
+    primary:
+      pos: n.
+      def: person, people, human, being, somebody, anybody
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - human, somebody's, personal, of people
+      - pos: vt.
+        defs:
+          - personify, humanize, personalize
+  - term: jelo
+    primary:
+      pos: mod.
+      def: yellow, light green
+      sentences: []
+    secondary: []
+  - term: jo
+    primary:
+      pos: vt.
+      def: have, contain
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - having
+      - pos: kama.
+        defs:
+          - receive, get, take, obtain
+  - term: kala
+    primary:
+      pos: n.
+      def: fish, sea creature
+      sentences: []
+    secondary: []
+  - term: kalama
+    primary:
+      pos: n.
+      def: sound, noise, voice
+      sentences: []
+    secondary:
+      - pos: vi.
+        defs:
+          - make noise
+      - pos: vt.
+        defs:
+          - sound, ring, play (an instrument)
+  - term: kama
+    primary:
+      pos: vi.
+      def: come, become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - event, happening, chance, arrival, beginning
+      - pos: mod.
+        defs:
+          - coming, future
+      - pos: vt.
+        defs:
+          - bring about, summon
+  - term: kasi
+    primary:
+      pos: n.
+      def: plant, leaf, herb, tree, wood
+      sentences: []
+    secondary: []
+  - term: ken
+    primary:
+      pos: vi.
+      def: can, is able to, is allowed to, may, is possible
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - possibility, ability, power to do things, permission
+      - pos: vt.
+        defs:
+          - make possible, enable, allow, permit
+      - pos: cont.
+        defs:
+          - it is possible that
+  - term: kepeken
+    primary:
+      pos: vt.
+      def: use
+      sentences: []
+    secondary:
+      - pos: prep.
+        defs:
+          - with
+  - term: kili
+    primary:
+      pos: n.
+      def: fruit, pulpy vegetable, mushroom
+      sentences: []
+    secondary: []
+  - term: kin
+    primary:
+      pos: mod.
+      def: also, too, even, indeed (emphasizes the word(s) before it)
+    secondary: []
+  - term: kipisi
+    primary:
+      pos: vt.
+      def: to cut
+      sentences: []
+    secondary: []
+  - term: kiwen
+    primary:
+      pos: mod.
+      def: hard, solid, stone-like, made of stone or metal
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - hard thing, rock, stone, metal, mineral, clay
+  - term: ko
+    primary:
+      pos: n.
+      def: semi-solid or squishy substance, e.g. paste, powder, gum
+      sentences: []
+    secondary: []
+  - term: kon
+    primary:
+      pos: n.
+      def: air, wind, smell, soul
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - air-like, ethereal, gaseous
+  - term: kule
+    primary:
+      pos: n.
+      def: colour, paint
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - colourful
+      - pos: vt.
+        defs:
+          - colour, paint
+  - term: kute
+    primary:
+      pos: vt.
+      def: listen, hear
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - auditory, hearing
+  - term: kulupu
+    primary:
+      pos: n.
+      def: group, community, society, company, people
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - communal, shared, public, of the society
+  - term: la
+    primary:
+      pos: sep.
+      def: (between adverb or phrase of context and sentence)
+      sentences: []
+    secondary: []
+  - term: lape
+    primary:
+      pos: vi.
+      def: to sleep, to rest
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - sleep, rest
+      - pos: mod.
+        defs:
+          - sleeping, of sleep
+  - term: laso
+    primary:
+      pos: mod.
+      def: blue, blue-green
+      sentences: []
+    secondary: []
+  - term: lawa
+    primary:
+      pos: n.
+      def: head, mind
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - main, leading, in charge
+      - pos: vt.
+        defs:
+          - lead, control, rule, steer
+  - term: len
+    primary:
+      pos: n.
+      def: clothing, cloth, fabric
+      sentences: []
+    secondary: []
+  - term: lete
+    primary:
+      pos: n.
+      def: cold
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - cold, uncooked
+      - pos: vt.
+        defs:
+          - to cool down, to chill
+  - term: li
+    primary:
+      pos: sep.
+      def: (between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)
+      sentences: []
+    secondary: []
+  - term: lili
+    primary:
+      pos: mod.
+      def: small, little, young, a bit, short, few, less
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - to reduce, to shorten, to shrink, to lessen
+  - term: linja
+    primary:
+      pos: n.
+      def: long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain
+      sentences: []
+    secondary: []
+  - term: lipu
+    primary:
+      pos: n.
+      def: flat and bendable thing, e.g. paper, card, ticket
+      sentences: []
+    secondary: []
+  - term: loje
+    primary:
+      pos: mod.
+      def: red
+      sentences: []
+    secondary: []
+  - term: lon
+    primary:
+      pos: prep.
+      def: be (located) in/at/on
+      sentences: []
+    secondary:
+      - pos: vi.
+        defs:
+          - be there, be present, be real/true, exist, be awake
+  - term: luka
+    primary:
+      pos: n
+      def: hand, arm
+      sentences: []
+    secondary: []
+  - term: lukin
+    primary:
+      pos: vt.
+      def: see, look at, watch, reads
+      sentences: []
+    secondary:
+      - pos: vi.
+        defs:
+          - look, watch out, pay attention
+      - pos: mod.
+        defs:
+          - visual(ly)
+  - term: lupa
+    primary:
+      pos: n.
+      def: hole, orifice, window, door
+      sentences: []
+    secondary: []
+  - term: ma
+    primary:
+      pos: n.
+      def: land, earth, country, (outdoor) area
+      sentences: []
+    secondary: []
+  - term: mama
+    primary:
+      pos: n.
+      def: parent, mother, father
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - of the parent, parental, maternal, fatherly
+  - term: mani
+    primary:
+      pos: n.
+      def: money, material wealth, currency, dollar, capital
+      sentences: []
+    secondary: []
+  - term: meli
+    primary:
+      pos: n.
+      def: woman, female, girl, wife, girlfriend
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - female, feminine, womanly
+  - term: mi
+    primary:
+      pos: n.
+      def: I, we
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - my, our
+  - term: mije
+    primary:
+      pos: n.
+      def: man, male, boy, husband, boyfriend
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - male, masculine, manly
+  - term: moku
+    primary:
+      pos: n.
+      def: food, meal
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - eat, drink, swallow, ingest, consume
+  - term: moli
+    primary:
+      pos: n.
+      def: death
+      sentences: []
+    secondary:
+      - pos: vi.
+        defs:
+          - die, be dead
+      - pos: vt.
+        defs:
+          - to kill
+      - pos: mod.
+        defs:
+          - dead, deadly, fatal
+  - term: monsi
+    primary:
+      pos: n.
+      def: back, rear end, butt, behind
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - back, rear
+  - term: mu
+    primary:
+      pos: interj.
+      def: woof! meow! moo! etc. (cute animal noise)
+      sentences: []
+    secondary: []
+  - term: mun
+    primary:
+      pos: n.
+      def: moon
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - lunar
+  - term: musi
+    primary:
+      pos: n.
+      def: fun, playing, game, recreation, art, entertainment
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - artful, fun, recreational
+      - pos: vi.
+        defs:
+          - play, have fun
+      - pos: vt.
+        defs:
+          - amuse, entertain
+  - term: mute
+    primary:
+      pos: mod.
+      def: many, very, much, several, a lot, abundant, numerous, more
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - amount, quantity
+      - pos: vt.
+        defs:
+          - make many or much
+  - term: namako
+    primary:
+      pos: n.
+      def: extra, addtional, spice
+      sentences: []
+    secondary: []
+  - term: nanpa
+    primary:
+      pos: n.
+      def: number
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - "-th (ordinal numbers)"
+  - term: nasa
+    primary:
+      pos: mod.
+      def: silly, crazy, foolish, drunk, strange, stupid, weird
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - drive crazy, make weird
+  - term: nasin
+    primary:
+      pos: n.
+      def: way, manner, custom, road, path, doctrine, system, method
+      sentences: []
+    secondary: []
+  - term: nena
+    primary:
+      pos: n.
+      def: bump, nose, hill, mountain, button
+      sentences: []
+    secondary: []
+  - term: ni
+    primary:
+      pos: mod.
+      def: this, that
+      sentences: []
+    secondary: []
+  - term: nimi
+    primary:
+      pos: n.
+      def: word, name
+      sentences: []
+    secondary: []
+  - term: noka
+    primary:
+      pos: n.
+      def: leg, foot
+      sentences: []
+    secondary: []
+  - term: o
+    primary:
+      pos: sep.
+      def: O (vocative or imperative)
+      sentences: []
+    secondary:
+      - pos: interj.
+        defs:
+          - hey! (calling somebody's attention)
+  - term: oko
+    primary:
+      pos: n.
+      def: eye
+      sentences: []
+    secondary: []
+  - term: olin
+    primary:
+      pos: n.
+      def: love
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - love
+      - pos: vt.
+        defs:
+          - to love (a person)
+  - term: ona
+    primary:
+      pos: n.
+      def: she, he, it, they
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - her, his, its, their
+  - term: open
+    primary:
+      pos: vt.
+      def: open, turn on
+      sentences: []
+    secondary: []
+  - term: pakala
+    primary:
+      pos: n.
+      def: blunder, accident, mistake, destruction, damage, breaking
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - screw up, fuck up, botch, ruin, break, hurt, injure, damage, spoil, ruin
+      - pos: vi.
+        defs:
+          - screw up, fall apart, break
+      - pos: interj.
+        defs:
+          - damn! fuck!
+  - term: pali
+    primary:
+      pos: n.
+      def: activity, work, deed, project
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - active, work-related, operating, working
+      - pos: vt.
+        defs:
+          - do, make, build, create
+      - pos: vi.
+        defs:
+          - act, work, function
+  - term: palisa
+    primary:
+      pos: n.
+      def: long, mostly hard object, e.g. rod, stick, branch
+      sentences: []
+    secondary: []
+  - term: pan
+    primary:
+      pos: n.
+      def: grain, cereal
+      sentences: []
+    secondary: []
+  - term: pana
+    primary:
+      pos: vt.
+      def: give, put, send, place, release, emit, cause
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - giving, transfer, exchange
+  - term: pi
+    primary:
+      pos: sep.
+      def: of, belonging to
+      sentences: []
+    secondary: []
+  - term: pilin
+    primary:
+      pos: n.
+      def: feelings, emotion, heart
+      sentences: []
+    secondary:
+      - pos: vi.
+        defs:
+          - feel
+      - pos: vt.
+        defs:
+          - feel, think, sense, touch
+  - term: pimeja
+    primary:
+      pos: mod.
+      def: black, dark
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - darkness, shadows
+      - pos: vt.
+        defs:
+          - darken
+  - term: pini
+    primary:
+      pos: n.
+      def: end, tip
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - completed, finished, past, done, ago
+      - pos: vt.
+        defs:
+          - finish, close, end, turn off
+  - term: pipi
+    primary:
+      pos: n.
+      def: bug, insect, spider
+      sentences: []
+    secondary: []
+  - term: poka
+    primary:
+      pos: n.
+      def: side, hip, next to
+      sentences: []
+    secondary:
+      - pos: prep.
+        defs:
+          - in the accompaniment of, with
+      - pos: mod.
+        defs:
+          - neighbouring
+  - term: poki
+    primary:
+      pos: n.
+      def: container, box, bowl, cup, glass
+      sentences: []
+    secondary: []
+  - term: pona
+    primary:
+      pos: n.
+      def: good, simplicity, positivity
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - good, simple, positive, nice, correct, right
+      - pos: interj.
+        defs:
+          - great! good! thanks! OK! cool! yay!
+      - pos: vt.
+        defs:
+          - improve, fix, repair, make good
+  - term: sama
+    primary:
+      pos: mod.
+      def: same, similar, equal, of equal status or position
+      sentences: []
+    secondary:
+      - pos: prep.
+        defs:
+          - like, as, seem
+  - term: seli
+    primary:
+      pos: n.
+      def: fire, warmth, heat
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - hot, warm, cooked
+      - pos: vt.
+        defs:
+          - heat, warm up, cook
+  - term: selo
+    primary:
+      pos: n.
+      def: outside, surface, skin, shell, bark, shape, peel
+      sentences: []
+    secondary: []
+  - term: seme
+    primary:
+      pos: oth.
+      def: what, which, wh- (question word)
+      sentences: []
+    secondary: []
+  - term: sewi
+    primary:
+      pos: n.
+      def: high, up, above, top, over, on
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - superior, elevated, religious, formal
+  - term: sijelo
+    primary:
+      pos: n.
+      def: body, physical state
+      sentences: []
+    secondary: []
+  - term: sike
+    primary:
+      pos: n.
+      def: circle, wheel, sphere, ball, cycle
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - round, cyclical
+  - term: sin
+    primary:
+      pos: mod.
+      def: new, fresh, another, more
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - renew, renovate, freshen
+  - term: sina
+    primary:
+      pos: n.
+      def: you
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - your
+  - term: sinpin
+    primary:
+      pos: n.
+      def: front, chest, torso, face, wall
+      sentences: []
+    secondary: []
+  - term: sitelen
+    primary:
+      pos: n.
+      def: picture, image
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - draw, write
+  - term: sona
+    primary:
+      pos: n.
+      def: knowledge, wisdom, intelligence, understanding
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - know, understand, know how to
+      - pos: vi.
+        defs:
+          - know, understand
+      - pos: kama.
+        defs:
+          - learn, study
+  - term: soweli
+    primary:
+      pos: n.
+      def: animal, especially land mammal, lovable animal
+      sentences: []
+    secondary: []
+  - term: suli
+    primary:
+      pos: mod.
+      def: big, tall, long, adult, important
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - enlarge, lengthen
+      - pos: n.
+        defs:
+          - size
+  - term: suno
+    primary:
+      pos: n.
+      def: sun, light
+      sentences: []
+    secondary: []
+  - term: supa
+    primary:
+      pos: n.
+      def: horizontal surface, e.g furniture, table, chair, pillow, floor
+      sentences: []
+    secondary: []
+  - term: suwi
+    primary:
+      pos: n.
+      def: candy, sweet food
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - sweet, cute
+      - pos: vt.
+        defs:
+          - sweeten
+  - term: tan
+    primary:
+      pos: prep.
+      def: from, by, because of, since
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - origin, cause
+  - term: taso
+    primary:
+      pos: mod.
+      def: only, sole
+      sentences: []
+    secondary:
+      - pos: conj.
+        defs:
+          - but
+  - term: tawa
+    primary:
+      pos: prep.
+      def: to, in order to, towards, for, until
+      sentences: []
+    secondary:
+      - pos: vi.
+        defs:
+          - go to, walk, travel, move, leave
+      - pos: n.
+        defs:
+          - movement, transportation
+      - pos: mod.
+        defs:
+          - moving, mobile
+      - pos: vt.
+        defs:
+          - move, displace
+  - term: telo
+    primary:
+      pos: n.
+      def: water, liquid, juice, sauce
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - water, wash with water
+  - term: tenpo
+    primary:
+      pos: n.
+      def: time, period of time, moment, duration, situation
+      sentences: []
+    secondary: []
+  - term: toki
+    primary:
+      pos: n.
+      def: language, talking, speech, communication
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - talking, verbal
+      - pos: vt.
+        defs:
+          - say
+      - pos: vi.
+        defs:
+          - talk, chat, communicate
+      - pos: interj.
+        defs:
+          - hello! hi!
+  - term: tomo
+    primary:
+      pos: n.
+      def: indoor constructed space, e.g. house, home, room, building
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - urban, domestic, household
+  - term: tu
+    primary:
+      pos: mod.
+      def: two
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - duo, pair
+      - pos: vt.
+        defs:
+          - double, separate/cut/divide in two
+  - term: unpa
+    primary:
+      pos: n.
+      def: sex, sexuality
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - erotic, sexual
+      - pos: vt.
+        defs:
+          - have sex with, sleep with, fuck
+      - pos: vi.
+        defs:
+          - have sex
+  - term: uta
+    primary:
+      pos: n.
+      def: mouth
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - oral
+  - term: utala
+    primary:
+      pos: n.
+      def: conflict, disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence
+      sentences: []
+    secondary:
+      - pos: vt.
+        defs:
+          - hit, strike, attack, compete against
+  - term: walo
+    primary:
+      pos: mod.
+      def: white, light (colour)
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - white thing or part, whiteness, lightness
+  - term: wan
+    primary:
+      pos: mod.
+      def: one, a
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - unit, element, particle, part, piece
+      - pos: vt.
+        defs:
+          - unite, make one
+  - term: waso
+    primary:
+      pos: n.
+      def: bird, winged animal
+      sentences: []
+    secondary: []
+  - term: wawa
+    primary:
+      pos: n.
+      def: energy, strength, power
+      sentences: []
+    secondary:
+      - pos: mod.
+        defs:
+          - energetic, strong, fierce, intense, sure, confident
+      - pos: vt.
+        defs:
+          - strengthen, energize, empower
+  - term: weka
+    primary:
+      pos: mod.
+      def: away, absent, missing
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - absence
+      - pos: vt.
+        defs:
+          - throw away, remove, get rid of
+  - term: wile
+    primary:
+      pos: vt.
+      def: to want, need, wish, have to, must, will, should
+      sentences: []
+    secondary:
+      - pos: n.
+        defs:
+          - desire, need, will
+      - pos: mod.
+        def:
+          - necessary
+...

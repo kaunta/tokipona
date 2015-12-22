@@ -1,0 +1,76 @@
+\documentclass[twocolumn, 10pt]{article}
+\renewcommand{\baselinestretch}{1}
+\usepackage{enumitem}
+\newenvironment{lexicon}[0]{
+  \setlist[description]{noitemsep}
+  \begin{description}
+}{
+  \end{description}
+}
+\setlength{\parskip}{0em}
+\newenvironment{entry}[1]{\item[#1]}{}
+\newenvironment{mainDefinition}[0]{}{}
+\newenvironment{secondaryDefinition}[0]{}{}
+\newenvironment{sentences}[0]{
+  \setlist[description]{font=\normalfont\itshape}
+  \begin{description}
+}{
+  \end{description}
+}
+
+\newcommand{\partOfSpeech}[1]{\textsc{#1}}
+\newcommand{\definition}[1]{#1}
+\newcommand{\sentence}[2]{\item[#1]\ \\ #2}
+
+
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+\begin{document}
+\maketitle
+\begin{lexicon}
+$for(entries)$
+  \begin{entry}{$entries.term$}
+    % Main definition of $entries.term$.
+    $if(entries.primary)$
+      \begin{mainDefinition}
+        \partOfSpeech{$entries.primary.pos$}
+        \definition{$entries.primary.def$}
+        $if(entries.primary.sentences)$
+          \begin{sentences}
+            $for(entries.primary.sentences)$
+              \sentence{$entries.primary.sentences.orig$}{$entries.primary.sentences.trans$}
+            $endfor$
+          \end{sentences}
+        $endif$
+      \end{mainDefinition}
+    $endif$
+    % Secondary definition(s) of $entries.term$.
+    $if(entries.secondary)$
+
+      $for(entries.secondary)$
+        \begin{secondaryDefinition}
+          \partOfSpeech{$entries.secondary.pos$}
+          $for(entries.secondary.defs)$ %
+            $if(entries.secondary.defs.sentences)$ % If there are example sentences
+              \definition{$entries.secondary.defs.def$}
+              $if(entries.secondary.defs.sentences)$
+              \begin{sentences}
+                $for(entries.secondary.defs.sentences)$ %
+                  \sentence{$entries.secondary.defs.sentences.orig$}{$entries.secondary.defs.sentences.trans$}
+                $endfor$ %
+              \end{sentences}
+              $endif$
+            $else$ %
+              \definition{$entries.secondary.defs$}
+            $endif$ %
+          $sep$\(\bullet\)$endfor$ %
+        \end{secondaryDefinition}
+      $endfor$
+    $endif$
+  \end{entry}
+$endfor$
+\end{lexicon}
+
+\end{document}
