@@ -1146,6 +1146,6 @@ entries:
         defs:
           - desire, need, will
       - pos: mod.
-        def:
+        defs:
           - necessary
 ...
