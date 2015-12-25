@@ -4,11 +4,12 @@ author: Toki Pona Community
 date: 2015-12-06
 thanksto:
   - John Lekberg
+  - John Clifford
 entries:
   - term: a
     primary:
       pos: interj.
-      def: Emotional exclamation.
+      def: Emotional exclamation. [pu indentifies this with 'kin']
       sentences:
         - orig: a a a a!
           trans: Don't do that.
@@ -16,18 +17,30 @@ entries:
           trans: Hahaha!
         - orig: a a!
           trans: uh oh! OR ah hah!
-    secondary: []
+    secondary:
+      - pos: n.
+        def: emotional exclamation
+      - pos: vi.
+        def: to utter 'a!', emote
+        sentences:
+          - orig: ona li a.
+            trans: She screamed.
+      - pos: vt.
+        def: to express [an emotion]
+        sentences:
+        - orig: ona li a e pilin pona.
+          trans: He sighed contentedly.
   - term: akesi
     primary:
       pos: n.
       def: Non-cute animal, reptile, amphibian.
       sentences:
         - orig: sina ike! akesi!
-          trans: ""
+          trans: You are bad! You Cockroach!
         - orig: jan Ton li pilin ala kin monsuta tan akesi.
-          trans: ""
+          trans: Tom is not afraid of snakes.
         - orig: akesi jelo li jan pona pi jan Uluka.
-          trans: ""
+          trans: "The yellow serpent is a friend of Uruch."
     secondary: []
   - term: ala
     primary:
@@ -35,103 +48,115 @@ entries:
       def: no, not, none, un-.
       sentences:
         - orig: taso mi lon ala
-          trans: ""
+          trans: But I don't exist.
     secondary:
       - pos: n.
-        defs:
-          - nothing, negation, zero
+        def: nothing, negation, zero, void, vacuum
       - pos: interj.
-        defs:
-          - no!
+        def: no!
+      - pos: vt.
+        def: to destroy, to annihilate
+        sentences:
+          - orig: ala li ala.
+            trans: The Nothing nothings. (Heidegger)
   - term: alasa
     primary:
       pos: vt.
-      def: to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest
-      sentences: []
+      def: to collect for daily life and survival; to gather, to harvest; to hunt
+      sentences:
+        - orig: mi alasa e waso telo e soweli palisa.
+          trans: I hunt ducks and bucks.
     secondary:
       - pos: vt.
-        defs:
-          - to hunt, to pursue and kill animals to use as food and clothing; to hunt
-  - term: ali
+        def: look for, seek
+      - pos: n.
+        def: game animals or meat; forage (collected)
+  - term: ali, ale
     primary:
-      pos: n.
-      def: everything, anything, life, the universe
-      sentences: []
-    secondary:
-      - pos: mod.
-        defs:
-          - all, every, complete, whole
+      pos: mod.
+      def: all, every, complete, whole
+      sentences:
+        - orig: ali li pona.
+          trans: Everything is OK.
+        - orig: jan ali li kama lon sama.
+          trans: All people are created equal.
+    secondary: []
   - term: anpa
     primary:
       pos: n.
       def: bottom, lower part, under, below, floor, beneath
       sentences: []
     secondary:
+      - pos: vi.
+        def: go down, descend, bow down, humble oneself
+      - pos: vt.
+        def: defeat
       - pos: mod.
-        defs:
-          - low, lower, bottom, down
+        def: low, lower, bottom, down
+      - pos: mod.
+        def: bowing down, downward, humble, lowly, dependent (via. Sonja)
   - term: ante
     primary:
-      pos: n.
-      def: difference
+      pos: mod.
+      def: different
       sentences: []
     secondary:
-      - pos: mod.
-        defs:
-          - different
-      - pos: conj.
-        defs:
-          - otherwise, or else
+      - pos: n.
+        def: difference
       - pos: vt.
-        defs: change, alter, modify
+        def: change, alter, modify
+      - pos: cont.
+        def: otherwise, or else
   - term: anu
     primary:
       pos: conj
-      def: or
-      sentences: []
+      def: or (no known restrictions on use)
+      sentences:
+        - orig: jan Tom anu jan San li pali e ni.
+          trans: Either Tom or John did this.
+        - orig: jan Tan anu jan San li pali e ni?
+          trans: Was it Tom or John who did this?
     secondary: []
   - term: awen
     primary:
-      pos: vi.
-      def: stay, wait, remain
+      pos: prevb.
+      def: keep on, continue
       sentences: []
     secondary:
+      - pos: vi.
+        def: stay, wait, remain
       - pos: vt.
-        defs:
-          - keep
+        def:  keep, preserve, wait for
       - pos: mod.
-        defs:
-          - remaining, stationary, permanent, sedentary
+        def: remaining, stationary, permanent, sedentary
   - term: e
     primary:
       pos: sep.
-      def: (introduces a direct object)
+      def: (introduces a direct object, repeated for compound objects)
       sentences: []
     secondary: []
   - term: en
     primary:
       pos: conj.
-      def: and (used to coordinate head nouns)
+      def: and (not used for compound predicates and compound objects or between sentences)
       sentences: []
     secondary: []
   - term: esun
     primary:
       pos: n.
-      def: market, shop
+      def: market, shop, business transaction
       sentences: []
-    secondary: []
+    secondary:
+      - pos: vt.
+        def: buy, sell, exchange (exact rules not well established)
   - term: ijo
     primary:
       pos: n.
       def: thing, something, stuff, anything, object
       sentences: []
     secondary:
-      - pos: mod.
-        defs:
-          - of something
       - pos: vt.
-        defs:
-          - objectify
+        def: objectify
   - term: ike
     primary:
       pos: mod.
@@ -139,17 +164,13 @@ entries:
       sentences: []
     secondary:
       - pos: interj.
-        defs:
-          - oh dear! woe! alas!
+        def: oh dear! woe! alas!
       - pos: n.
-        defs:
-          - negativity, badness, evil
+        def: negativity, badness, evil
       - pos: vt.
-        defs:
-          - to make bad, to worsen, to have a negative effect upon
+        def: to make bad, to worsen, to have a negative effect upon
       - pos: vi.
-        defs:
-          - to be bad, to suck
+        def: to be bad, to suck
   - term: ilo
     primary:
       pos: n.
@@ -163,8 +184,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - inner, internal
+        def: inner, internal, central, visceral
   - term: jaki
     primary:
       pos: mod.
@@ -172,26 +192,21 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - dirt, pollution, garbage, filth
+        def: dirt, pollution, garbage, filth
       - pos: vt.
-        defs:
-          - pollute, dirty
+        def: pollute, dirty
       - pos: interj.
-        defs:
-          - ew! yuck!
+        def: ew! yuck!
   - term: jan
     primary:
       pos: n.
-      def: person, people, human, being, somebody, anybody
+      def: person, people, human, being, somebody, anybody  (officially any great ape, usually any character regardless of species)
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - human, somebody's, personal, of people
+        def: human, somebody's, personal, of people
       - pos: vt.
-        defs:
-          - personify, humanize, personalize
+        def: personify, humanize, personalize
   - term: jelo
     primary:
       pos: mod.
@@ -201,19 +216,19 @@ entries:
   - term: jo
     primary:
       pos: vt.
-      def: have, contain
+      def: have, contain, carry, own, possess
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - having
+        def: having, possessions
+      - pos: mod.
+        def: owned, private
       - pos: kama.
-        defs:
-          - receive, get, take, obtain
+        def: receive, get, take, obtain (This is a fairly obvious use of 'kama' as preverb "come to have")
   - term: kala
     primary:
       pos: n.
-      def: fish, sea creature
+      def: fish, sea creature [any animal that lives (almost) entirely in water, regardless of species]
       sentences: []
     secondary: []
   - term: kalama
@@ -223,56 +238,57 @@ entries:
       sentences: []
     secondary:
       - pos: vi.
-        defs:
-          - make noise
+        def: make noise
       - pos: vt.
-        defs:
-          - sound, ring, play (an instrument)
+        def: sound, ring, play (an instrument)
+      - pos: mod.
+        def: noisy, sonic
   - term: kama
     primary:
-      pos: vi.
-      def: come, become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to
+      pos: prevb.
+      def: come, become, happen
       sentences: []
     secondary:
+      - pos: vi.
+        def: come
       - pos: n.
-        defs:
-          - event, happening, chance, arrival, beginning
+        def: event, happening, chance, arrival
       - pos: mod.
-        defs:
-          - coming, future
+        def: coming, future
       - pos: vt.
-        defs:
-          - bring about, summon
+        def: bring about, summon
   - term: kasi
     primary:
       pos: n.
       def: plant, leaf, herb, tree, wood
       sentences: []
-    secondary: []
+    secondary:
+      - pos: vt.
+        def: plant, sow
+      - pos: mod.
+        def: botanical, vegetal, herbal
   - term: ken
     primary:
-      pos: vi.
+      pos: prevb.
       def: can, is able to, is allowed to, may, is possible
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - possibility, ability, power to do things, permission
+        def: possibility, ability, power to do things, permission
+      - pos: n.
+        def: rights, powers
       - pos: vt.
-        defs:
-          - make possible, enable, allow, permit
+        def: make possible, enable, allow, permit
       - pos: cont.
-        defs:
-          - it is possible that
+        def: it is possible that, maybe, possibly
   - term: kepeken
     primary:
-      pos: vt.
-      def: use
+      pos: prep.
+      def: with (a tool)
       sentences: []
     secondary:
-      - pos: prep.
-        defs:
-          - with
+      - pos: mod.
+        def: useful, practical
   - term: kili
     primary:
       pos: n.
@@ -282,29 +298,40 @@ entries:
   - term: kin
     primary:
       pos: mod.
-      def: also, too, even, indeed (emphasizes the word(s) before it)
-    secondary: []
+      def: (emphasizes the word(s) before it for various purposes) also, too, even, indeed, however
+    secondary:
+      - pos: cont.
+        def: moreover, however
   - term: kipisi
     primary:
       pos: vt.
       def: to cut
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: partial, incomplete, cut, divided
+      - pos: n.
+        def: section, fragment, passage (of text)
   - term: kiwen
     primary:
-      pos: mod.
-      def: hard, solid, stone-like, made of stone or metal
+      pos: n.
+      def: hard thing, rock, stone, metal, mineral, clay
       sentences: []
     secondary:
-      - pos: n.
-        defs:
-          - hard thing, rock, stone, metal, mineral, clay
+      - pos: mod.
+        def: hard, solid, stone-like, made of stone or metal (not yielding to impact, not “difficult”)
+      - pos: vt.
+        def: solidfy, gel, thicken, harden (also vi. with missing 'e sama')
   - term: ko
     primary:
       pos: n.
       def: semi-solid or squishy substance, e.g. paste, powder, gum
       sentences: []
-    secondary: []
+    secondary:
+      - pos: vt.
+        def: pulverize, grind, reduce to powder/paste
+      - pos: mod.
+        def: soft, squishy, powdery, colloidal
   - term: kon
     primary:
       pos: n.
@@ -312,8 +339,11 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - air-like, ethereal, gaseous
+        def: air-like, ethereal, gaseous, spiritual
+      - pos: vi.
+        def: breathe, blow
+      - pos: vt.
+        def: inflate, breathe in, suck
   - term: kule
     primary:
       pos: n.
@@ -321,20 +351,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - colourful
+        def: colourful
       - pos: vt.
-        defs:
-          - colour, paint
-  - term: kute
-    primary:
-      pos: vt.
-      def: listen, hear
-      sentences: []
-    secondary:
-      - pos: mod.
-        defs:
-          - auditory, hearing
+        def: colour, paint
   - term: kulupu
     primary:
       pos: n.
@@ -342,8 +361,19 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - communal, shared, public, of the society
+        def: communal, shared, public, of the society
+      - pos: vt.
+        def: call together, assemble, convene
+  - term: kute
+    primary:
+      pos: vt.
+      def: listen, hear (pu adds “obey”)
+      sentences: []
+    secondary:
+      - pos: mod.
+        def: auditory, hearing
+      - pos: cont.
+        def: (hearsay evidence)
   - term: la
     primary:
       pos: sep.
@@ -357,11 +387,9 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - sleep, rest
+        def: sleep, rest
       - pos: mod.
-        defs:
-          - sleeping, of sleep
+        def: sleeping, of sleep
   - term: laso
     primary:
       pos: mod.
@@ -375,11 +403,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - main, leading, in charge
+        def: main, leading, in charge
       - pos: vt.
-        defs:
-          - lead, control, rule, steer
+        def: lead, control, rule, steer
   - term: len
     primary:
       pos: n.
@@ -393,11 +419,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - cold, uncooked
+        def: cold, uncooked
       - pos: vt.
-        defs:
-          - to cool down, to chill
+        def: to cool down, to chill
   - term: li
     primary:
       pos: sep.
@@ -411,8 +435,7 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - to reduce, to shorten, to shrink, to lessen
+        def: to reduce, to shorten, to shrink, to lessen
   - term: linja
     primary:
       pos: n.
@@ -438,8 +461,7 @@ entries:
       sentences: []
     secondary:
       - pos: vi.
-        defs:
-          - be there, be present, be real/true, exist, be awake
+        def: be there, be present, be real/true, exist, be awake
   - term: luka
     primary:
       pos: n
@@ -453,11 +475,9 @@ entries:
       sentences: []
     secondary:
       - pos: vi.
-        defs:
-          - look, watch out, pay attention
+        def: look, watch out, pay attention
       - pos: mod.
-        defs:
-          - visual(ly)
+        def: visual(ly)
   - term: lupa
     primary:
       pos: n.
@@ -477,8 +497,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - of the parent, parental, maternal, fatherly
+        def: of the parent, parental, maternal, fatherly
   - term: mani
     primary:
       pos: n.
@@ -492,8 +511,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - female, feminine, womanly
+        def: female, feminine, womanly
   - term: mi
     primary:
       pos: n.
@@ -501,8 +519,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - my, our
+        def: my, our
   - term: mije
     primary:
       pos: n.
@@ -510,8 +527,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - male, masculine, manly
+        def: male, masculine, manly
   - term: moku
     primary:
       pos: n.
@@ -519,8 +535,7 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - eat, drink, swallow, ingest, consume
+        def: eat, drink, swallow, ingest, consume
   - term: moli
     primary:
       pos: n.
@@ -528,14 +543,11 @@ entries:
       sentences: []
     secondary:
       - pos: vi.
-        defs:
-          - die, be dead
+        def: die, be dead
       - pos: vt.
-        defs:
-          - to kill
+        def: to kill
       - pos: mod.
-        defs:
-          - dead, deadly, fatal
+        def: dead, deadly, fatal
   - term: monsi
     primary:
       pos: n.
@@ -543,8 +555,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - back, rear
+        def: back, rear
   - term: mu
     primary:
       pos: interj.
@@ -558,8 +569,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - lunar
+        def: lunar
   - term: musi
     primary:
       pos: n.
@@ -567,14 +577,11 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - artful, fun, recreational
+        def: artful, fun, recreational
       - pos: vi.
-        defs:
-          - play, have fun
+        def: play, have fun
       - pos: vt.
-        defs:
-          - amuse, entertain
+        def: amuse, entertain
   - term: mute
     primary:
       pos: mod.
@@ -582,11 +589,9 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - amount, quantity
+        def: amount, quantity
       - pos: vt.
-        defs:
-          - make many or much
+        def: make many or much
   - term: namako
     primary:
       pos: n.
@@ -600,8 +605,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - "-th (ordinal numbers)"
+        def: "-th (ordinal numbers)"
   - term: nasa
     primary:
       pos: mod.
@@ -609,8 +613,7 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - drive crazy, make weird
+        def: drive crazy, make weird
   - term: nasin
     primary:
       pos: n.
@@ -648,8 +651,7 @@ entries:
       sentences: []
     secondary:
       - pos: interj.
-        defs:
-          - hey! (calling somebody's attention)
+        def: hey! (calling somebody's attention)
   - term: oko
     primary:
       pos: n.
@@ -663,11 +665,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - love
+        def: love
       - pos: vt.
-        defs:
-          - to love (a person)
+        def: to love (a person)
   - term: ona
     primary:
       pos: n.
@@ -675,8 +675,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - her, his, its, their
+        def: her, his, its, their
   - term: open
     primary:
       pos: vt.
@@ -690,14 +689,11 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - screw up, fuck up, botch, ruin, break, hurt, injure, damage, spoil, ruin
+        def: screw up, fuck up, botch, ruin, break, hurt, injure, damage, spoil, ruin
       - pos: vi.
-        defs:
-          - screw up, fall apart, break
+        def: screw up, fall apart, break
       - pos: interj.
-        defs:
-          - damn! fuck!
+        def: damn! fuck!
   - term: pali
     primary:
       pos: n.
@@ -705,14 +701,11 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - active, work-related, operating, working
+        def: active, work-related, operating, working
       - pos: vt.
-        defs:
-          - do, make, build, create
+        def: do, make, build, create
       - pos: vi.
-        defs:
-          - act, work, function
+        def: act, work, function
   - term: palisa
     primary:
       pos: n.
@@ -732,8 +725,7 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - giving, transfer, exchange
+        def: giving, transfer, exchange
   - term: pi
     primary:
       pos: sep.
@@ -747,11 +739,9 @@ entries:
       sentences: []
     secondary:
       - pos: vi.
-        defs:
-          - feel
+        def: feel
       - pos: vt.
-        defs:
-          - feel, think, sense, touch
+        def: feel, think, sense, touch
   - term: pimeja
     primary:
       pos: mod.
@@ -759,11 +749,9 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - darkness, shadows
+        def: darkness, shadows
       - pos: vt.
-        defs:
-          - darken
+        def: darken
   - term: pini
     primary:
       pos: n.
@@ -771,11 +759,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - completed, finished, past, done, ago
+        def: completed, finished, past, done, ago
       - pos: vt.
-        defs:
-          - finish, close, end, turn off
+        def: finish, close, end, turn off
   - term: pipi
     primary:
       pos: n.
@@ -789,11 +775,9 @@ entries:
       sentences: []
     secondary:
       - pos: prep.
-        defs:
-          - in the accompaniment of, with
+        def: in the accompaniment of, with
       - pos: mod.
-        defs:
-          - neighbouring
+        def: neighbouring
   - term: poki
     primary:
       pos: n.
@@ -807,14 +791,11 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - good, simple, positive, nice, correct, right
+        def: good, simple, positive, nice, correct, right
       - pos: interj.
-        defs:
-          - great! good! thanks! OK! cool! yay!
+        def: great! good! thanks! OK! cool! yay!
       - pos: vt.
-        defs:
-          - improve, fix, repair, make good
+        def: improve, fix, repair, make good
   - term: sama
     primary:
       pos: mod.
@@ -822,8 +803,7 @@ entries:
       sentences: []
     secondary:
       - pos: prep.
-        defs:
-          - like, as, seem
+        def: like, as, seem
   - term: seli
     primary:
       pos: n.
@@ -831,11 +811,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - hot, warm, cooked
+        def: hot, warm, cooked
       - pos: vt.
-        defs:
-          - heat, warm up, cook
+        def: heat, warm up, cook
   - term: selo
     primary:
       pos: n.
@@ -855,8 +833,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - superior, elevated, religious, formal
+        def: superior, elevated, religious, formal
   - term: sijelo
     primary:
       pos: n.
@@ -870,8 +847,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - round, cyclical
+        def: round, cyclical
   - term: sin
     primary:
       pos: mod.
@@ -879,8 +855,7 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - renew, renovate, freshen
+        def: renew, renovate, freshen
   - term: sina
     primary:
       pos: n.
@@ -888,8 +863,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - your
+        def: your
   - term: sinpin
     primary:
       pos: n.
@@ -903,8 +877,7 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - draw, write
+        def: draw, write
   - term: sona
     primary:
       pos: n.
@@ -912,14 +885,11 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - know, understand, know how to
+        def: know, understand, know how to
       - pos: vi.
-        defs:
-          - know, understand
+        def: know, understand
       - pos: kama.
-        defs:
-          - learn, study
+        def: learn, study
   - term: soweli
     primary:
       pos: n.
@@ -933,11 +903,9 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - enlarge, lengthen
+        def: enlarge, lengthen
       - pos: n.
-        defs:
-          - size
+        def: size
   - term: suno
     primary:
       pos: n.
@@ -957,11 +925,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - sweet, cute
+        def: sweet, cute
       - pos: vt.
-        defs:
-          - sweeten
+        def: sweeten
   - term: tan
     primary:
       pos: prep.
@@ -969,8 +935,7 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - origin, cause
+        def: origin, cause
   - term: taso
     primary:
       pos: mod.
@@ -978,8 +943,7 @@ entries:
       sentences: []
     secondary:
       - pos: conj.
-        defs:
-          - but
+        def: but
   - term: tawa
     primary:
       pos: prep.
@@ -987,17 +951,13 @@ entries:
       sentences: []
     secondary:
       - pos: vi.
-        defs:
-          - go to, walk, travel, move, leave
+        def: go to, walk, travel, move, leave
       - pos: n.
-        defs:
-          - movement, transportation
+        def: movement, transportation
       - pos: mod.
-        defs:
-          - moving, mobile
+        def: moving, mobile
       - pos: vt.
-        defs:
-          - move, displace
+        def: move, displace
   - term: telo
     primary:
       pos: n.
@@ -1005,8 +965,7 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - water, wash with water
+        def: water, wash with water
   - term: tenpo
     primary:
       pos: n.
@@ -1020,17 +979,13 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - talking, verbal
+        def: talking, verbal
       - pos: vt.
-        defs:
-          - say
+        def: say
       - pos: vi.
-        defs:
-          - talk, chat, communicate
+        def: talk, chat, communicate
       - pos: interj.
-        defs:
-          - hello! hi!
+        def: hello! hi!
   - term: tomo
     primary:
       pos: n.
@@ -1038,8 +993,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - urban, domestic, household
+        def: urban, domestic, household
   - term: tu
     primary:
       pos: mod.
@@ -1047,11 +1001,9 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - duo, pair
+        def: duo, pair
       - pos: vt.
-        defs:
-          - double, separate/cut/divide in two
+        def: double, separate/cut/divide in two
   - term: unpa
     primary:
       pos: n.
@@ -1059,14 +1011,11 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - erotic, sexual
+        def: erotic, sexual
       - pos: vt.
-        defs:
-          - have sex with, sleep with, fuck
+        def: have sex with, sleep with, fuck
       - pos: vi.
-        defs:
-          - have sex
+        def: have sex
   - term: uta
     primary:
       pos: n.
@@ -1074,8 +1023,7 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - oral
+        def: oral
   - term: utala
     primary:
       pos: n.
@@ -1083,8 +1031,7 @@ entries:
       sentences: []
     secondary:
       - pos: vt.
-        defs:
-          - hit, strike, attack, compete against
+        def: hit, strike, attack, compete against
   - term: walo
     primary:
       pos: mod.
@@ -1092,8 +1039,7 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - white thing or part, whiteness, lightness
+        def: white thing or part, whiteness, lightness
   - term: wan
     primary:
       pos: mod.
@@ -1101,11 +1047,9 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - unit, element, particle, part, piece
+        def: unit, element, particle, part, piece
       - pos: vt.
-        defs:
-          - unite, make one
+        def: unite, make one
   - term: waso
     primary:
       pos: n.
@@ -1119,11 +1063,9 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        defs:
-          - energetic, strong, fierce, intense, sure, confident
+        def: energetic, strong, fierce, intense, sure, confident
       - pos: vt.
-        defs:
-          - strengthen, energize, empower
+        def: strengthen, energize, empower
   - term: weka
     primary:
       pos: mod.
@@ -1131,11 +1073,9 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - absence
+        def: absence
       - pos: vt.
-        defs:
-          - throw away, remove, get rid of
+        def: throw away, remove, get rid of
   - term: wile
     primary:
       pos: vt.
@@ -1143,9 +1083,7 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        defs:
-          - desire, need, will
+        def: desire, need, will
       - pos: mod.
-        defs:
-          - necessary
+        def: necessary
 ...

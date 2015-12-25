@@ -10,7 +10,7 @@
 \setlength{\parskip}{0em}
 \newenvironment{entry}[1]{\item[#1]}{}
 \newenvironment{mainDefinition}[0]{}{}
-\newenvironment{secondaryDefinition}[0]{}{}
+\newenvironment{secondaryDefinition}[0]{}{\par}
 \newenvironment{sentences}[0]{
   \setlist[description]{font=\normalfont\itshape}
   \begin{description}
@@ -52,20 +52,14 @@ $for(entries)$
       $for(entries.secondary)$
         \begin{secondaryDefinition}
           \partOfSpeech{$entries.secondary.pos$}
-          $for(entries.secondary.defs)$ %
-            $if(entries.secondary.defs.sentences)$ % If there are example sentences
-              \definition{$entries.secondary.defs.def$}
-              $if(entries.secondary.defs.sentences)$
-              \begin{sentences}
-                $for(entries.secondary.defs.sentences)$ %
-                  \sentence{$entries.secondary.defs.sentences.orig$}{$entries.secondary.defs.sentences.trans$}
-                $endfor$ %
-              \end{sentences}
-              $endif$
-            $else$ %
-              \definition{$entries.secondary.defs$}
-            $endif$ %
-          $sep$\(\bullet\)$endfor$ %
+          \definition{$entries.secondary.def$}
+          $if(entries.secondary.sentences)$
+            \begin{sentences}
+              $for(entries.secondary.sentences)$
+                \sentence{$entries.secondary.sentences.orig$}{$entries.secondary.sentences.trans$}
+              $endfor$
+            \end{sentences}
+          $endif$
         \end{secondaryDefinition}
       $endfor$
     $endif$
