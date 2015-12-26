@@ -80,7 +80,9 @@ entries:
           trans: Everything is OK.
         - orig: jan ali li kama lon sama.
           trans: All people are created equal.
-    secondary: []
+    secondary:
+      - pos: n.
+        def: "100"
   - term: anpa
     primary:
       pos: n.
@@ -176,7 +178,9 @@ entries:
       pos: n.
       def: tool, device, machine, thing used for a specific purpose
       sentences: []
-    secondary: []
+    secondary:
+      - pos: vt.
+        def: work on, tinker with
   - term: insa
     primary:
       pos: n.
@@ -284,7 +288,7 @@ entries:
   - term: kepeken
     primary:
       pos: prep.
-      def: with (a tool)
+      def: with (a tool), using
       sentences: []
     secondary:
       - pos: mod.
@@ -299,6 +303,15 @@ entries:
     primary:
       pos: mod.
       def: (emphasizes the word(s) before it for various purposes) also, too, even, indeed, however
+      sentences:
+        - orig: ni li suli kin!
+          trans: This is tremendous!
+        - orig: ni li pona kin.
+          trans: This is indeed good.
+        - orig: jan Tan li tawa ma Kanse. mi kin (tawa ma kanse
+          trans: Tom is going to France. Me, too. (I also am going to France)
+        - orig: jan Tan li tawa ma Kanse. mi tawa ma Italija kin...
+          trans: I am goinf to Italy, however...
     secondary:
       - pos: cont.
         def: moreover, however
@@ -313,7 +326,7 @@ entries:
       - pos: n.
         def: section, fragment, passage (of text)
   - term: kiwen
-    primary:
+    primary:"pona" - thank you, I don't mind, here you are, you're welcome
       pos: n.
       def: hard thing, rock, stone, metal, mineral, clay
       sentences: []
@@ -565,7 +578,7 @@ entries:
   - term: mun
     primary:
       pos: n.
-      def: moon
+      def: moon, star, exoplanet
       sentences: []
     secondary:
       - pos: mod.
@@ -595,7 +608,7 @@ entries:
   - term: namako
     primary:
       pos: n.
-      def: extra, addtional, spice
+      def: extra, addtional, spice, ornament
       sentences: []
     secondary: []
   - term: nanpa
@@ -793,7 +806,10 @@ entries:
       - pos: mod.
         def: good, simple, positive, nice, correct, right
       - pos: interj.
-        def: great! good! thanks! OK! cool! yay!
+        def: great! good! thanks! OK! cool! yay! yes.
+        sentences:
+          - orig: ona li pona anu seme? pona.
+            trans: Is it good? Yes.
       - pos: vt.
         def: improve, fix, repair, make good
   - term: sama
