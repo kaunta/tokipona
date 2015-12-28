@@ -326,7 +326,7 @@ entries:
       - pos: n.
         def: section, fragment, passage (of text)
   - term: kiwen
-    primary:"pona" - thank you, I don't mind, here you are, you're welcome
+    primary:
       pos: n.
       def: hard thing, rock, stone, metal, mineral, clay
       sentences: []
@@ -390,61 +390,67 @@ entries:
   - term: la
     primary:
       pos: sep.
-      def: (between adverb or phrase of context and sentence)
+      def: (between adverb or phrase of context and sentence) when, only if
       sentences: []
     secondary: []
   - term: lape
     primary:
-      pos: vi.
-      def: to sleep, to rest
+      pos: mod.
+      def: sleeping, of sleep, unconsciousness
       sentences: []
     secondary:
+      - pos: vi.
+        def: to sleep, to rest
       - pos: n.
-        def: sleep, rest
+        def: sleep, rest, unconsciousness
       - pos: mod.
         def: sleeping, of sleep
   - term: laso
     primary:
       pos: mod.
-      def: blue, blue-green
+      def: blue, blue-green (not sad or smutty or drunk)
       sentences: []
     secondary: []
   - term: lawa
     primary:
       pos: n.
-      def: head, mind
+      def: head, mind, law, direction
       sentences: []
     secondary:
       - pos: mod.
-        def: main, leading, in charge
+        def: main, leading, in charge, mental, legal, lawful
       - pos: vt.
-        def: lead, control, rule, steer
+        def: lead, control, rule, steer. show, direct, own, plan, regulate, rule
   - term: len
     primary:
       pos: n.
-      def: clothing, cloth, fabric
-      sentences: []
-    secondary: []
-  - term: lete
-    primary:
-      pos: n.
-      def: cold
+      def: clothing, cloth, fabric, textile, covering , layer of privacy. network (esp. World Wide Web/WWW)
       sentences: []
     secondary:
       - pos: mod.
-        def: cold, uncooked
+        def: dressed, dressed up, arrayed
       - pos: vt.
-        def: to cool down, to chill
+        def: wear, dress, put on
+  - term: lete
+    primary:
+      pos: mod.
+      def: cold, uncooked, northern
+      sentences: []
+    secondary:
+      - pos: n.
+        def: cold, North
+      - pos: vt.
+        def: to cool down, to chill, freeze
   - term: li
     primary:
       pos: sep.
-      def: (between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)
+      def: (beginning of each separate predicate, dropped immediately after 'mi', 'sina' and 'o' standing alone)
       sentences: []
     secondary: []
   - term: lili
     primary:
       pos: mod.
-      def: small, little, young, a bit, short, few, less
+      def: small, little, young, immature, a bit, short, few, less [opp. of both 'mute' and 'suli', so short, thin, narrow, light weight, etc.]
       sentences: []
     secondary:
       - pos: vt.
@@ -454,11 +460,13 @@ entries:
       pos: n.
       def: long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: stringy, hairy
   - term: lipu
     primary:
       pos: n.
-      def: flat and bendable thing, e.g. paper, card, ticket
+      def: flat and bendable thing, e.g. paper, card, ticket. (esp. 'page', hence book and website)
       sentences: []
     secondary: []
   - term: loje
@@ -475,22 +483,36 @@ entries:
     secondary:
       - pos: vi.
         def: be there, be present, be real/true, exist, be awake
+      - pos: mod.
+        def: real, true, existing, correct, genuine, present, awake
+      - pos: n.
+        def: location, address. situation, reality, truth, existence, life
+      - pos: vt.
+        def: place at/in/on, bring to; correct, verify; bring into existence, create; awaken
+      - pos: cont.
+        def: in fact, actually
   - term: luka
     primary:
       pos: n
-      def: hand, arm
+      def: hand, arm, foreleg, wing, limb not used for locomotion, tactile organ
       sentences: []
-    secondary: []
+    secondary:
+      - pos: num.
+        def: five
   - term: lukin
     primary:
       pos: vt.
-      def: see, look at, watch, reads
+      def: see, look at, watch, read
       sentences: []
     secondary:
       - pos: vi.
         def: look, watch out, pay attention
       - pos: mod.
-        def: visual(ly)
+        def: visual, alert, attentive
+      - pos: prevb.
+        def: try, work at
+      - pos: cont.
+        def: obviously, clearly, apparently
   - term: lupa
     primary:
       pos: n.
