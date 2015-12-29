@@ -9,7 +9,7 @@ entries:
   - term: a
     primary:
       pos: interj.
-      def: Emotional exclamation. [pu indentifies this with 'kin']
+      def: Emotional exclamation (pu indentifies this with 'kin')
       sentences:
         - orig: a a a a!
           trans: Don't do that.
@@ -522,23 +522,27 @@ entries:
   - term: ma
     primary:
       pos: n.
-      def: land, earth, country, (outdoor) area
-      sentences: []
-    secondary: []
-  - term: mama
-    primary:
-      pos: n.
-      def: parent, mother, father
+      def: land, earth, country, (outdoor) area, ground, dirt, Earth (or whatever planet you are on), territory
       sentences: []
     secondary:
       - pos: mod.
-        def: of the parent, parental, maternal, fatherly
+        def: dirty, grimy, soiled; national, regional, territorial, terrestrial
+  - term: mama
+    primary:
+      pos: n.
+      def: parent, mother, father, ancestor, creator, sustainer, caretaker
+      sentences: []
+    secondary:
+      - pos: mod.
+        def:  of the parent, parental, maternal, fatherly, motherly, caring, sustaining
   - term: mani
     primary:
       pos: n.
-      def: money, material wealth, currency, dollar, capital
+      def: money, material wealth, currency, dollar, capital; large domesticated herd animals
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: monetary, financial; rich
   - term: meli
     primary:
       pos: n.
@@ -550,11 +554,11 @@ entries:
   - term: mi
     primary:
       pos: n.
-      def: I, we
+      def: I, we, me, us
       sentences: []
     secondary:
       - pos: mod.
-        def: my, our
+        def: my, our, mine, ours
   - term: mije
     primary:
       pos: n.
@@ -565,24 +569,26 @@ entries:
         def: male, masculine, manly
   - term: moku
     primary:
-      pos: n.
-      def: food, meal
+      pos: vt.
+      def: eat, drink, swallow, ingest, consume
       sentences: []
     secondary:
-      - pos: vt.
-        def: eat, drink, swallow, ingest, consume
+      - pos: n.
+        def: food, meat, drink, meal
+      - pos: mod.
+        def: edible; eating
   - term: moli
     primary:
-      pos: n.
-      def: death
+      pos: mod.
+      def: dead, deadly, fatal
       sentences: []
     secondary:
+      - pos: n.
+        def: death
       - pos: vi.
         def: die, be dead
       - pos: vt.
-        def: to kill
-      - pos: mod.
-        def: dead, deadly, fatal
+        def: to kill, murder, execute
   - term: monsi
     primary:
       pos: n.
@@ -590,21 +596,37 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        def: back, rear
+        def: back, rear, in back
+  - term: monsuta
+    primary:
+      pos: vt.
+      def: fear (not in pu)
+      sentences: []
+    secondary:
+      - pos: n.
+        def: fear, fright, terror; monster (what inspires fear)
+      - pos: mod.
+        def: fearful, frightened, afraid
   - term: mu
     primary:
       pos: interj.
-      def: woof! meow! moo! etc. (cute animal noise)
+      def: woof! meow! moo! etc. (animal noise, maybe also natural and mechanical noises)
       sentences: []
-    secondary: []
+    secondary:
+      - pos: n.
+        def: such a sound
+      - pos: vi.
+        def: utter such a sound
+      - pos: vt.
+        def: utter such a sound to express
   - term: mun
     primary:
       pos: n.
-      def: moon, star, exoplanet
+      def: moon, planet, star, satellite, night sky object
       sentences: []
     secondary:
       - pos: mod.
-        def: lunar
+        def: lunar, stellar, extraterrestrial
   - term: musi
     primary:
       pos: n.
@@ -612,11 +634,11 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        def: artful, fun, recreational
+        def: artful, fun, recreational, artistic, frivolous
       - pos: vi.
-        def: play, have fun
+        def: play, have fun, exercise
       - pos: vt.
-        def: amuse, entertain
+        def: amuse, entertain, play with
   - term: mute
     primary:
       pos: mod.
@@ -624,15 +646,19 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        def: amount, quantity
+        def: amount, quantity, a lot
       - pos: vt.
-        def: make many or much
+        def: make many or much, increase, multiply, augment, nourish, improve
   - term: namako
     primary:
       pos: n.
-      def: extra, addtional, spice, ornament
+      def: extra, additional, spice, trimming, decoration, accessory, lagniappe (not in pu)
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: accessory, spicy, too much
+      - pos: vt.
+        def: excite, stimulate; decorate
   - term: nanpa
     primary:
       pos: n.
