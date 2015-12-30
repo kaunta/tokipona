@@ -666,43 +666,60 @@ entries:
       sentences: []
     secondary:
       - pos: mod.
-        def: "-th (ordinal numbers)"
+        def: "-th (introduces ordinal numbers); numeric, numeral"
+      - pos: vt.
+        def: enumerate, count
   - term: nasa
     primary:
       pos: mod.
-      def: silly, crazy, foolish, drunk, strange, stupid, weird
+      def: silly, crazy, foolish, drunk, strange, stupid, weird, foolish, abnormal, eccentric
       sentences: []
     secondary:
+      - pos: n.
+        def: strangeness, stupidity, drunkenness, etc
       - pos: vt.
-        def: drive crazy, make weird
+        def: drive crazy, make weird, confuse, scramble, get drunk
   - term: nasin
     primary:
       pos: n.
-      def: way, manner, custom, road, path, doctrine, system, method
+      def: way, manner, custom, road, path, doctrine, system, method, system, habit, manner
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: systematic, habitual, customary doctrinal, doctrinaire; pertaining to roads
   - term: nena
     primary:
       pos: n.
-      def: bump, nose, hill, mountain, button
+      def: bump, nose, hill, mountain, button, breast , any protuberance
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: bumpy, rough
   - term: ni
     primary:
       pos: mod.
-      def: this, that
+      def: this, that (etc. pointing)
       sentences: []
-    secondary: []
+    secondary:
+      - pos: n.
+        def: this (referring to sentence or event, not particular words)
   - term: nimi
     primary:
       pos: n.
-      def: word, name
+      def: word, name, phrase
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: verbal, nominal
+      - pos: vt.
+        def: name, call
+        sentences:
+          - orig: ona li nimi 'Malala' e mi.
+            trans: He called me Malala.
   - term: noka
     primary:
       pos: n.
-      def: leg, foot
+      def: leg, foot; hind leg, locomotor leg [pu bottom, lower part – earlier 'anpa']
       sentences: []
     secondary: []
   - term: o
@@ -713,96 +730,135 @@ entries:
     secondary:
       - pos: interj.
         def: hey! (calling somebody's attention)
+        sentences:
+          - orig: jan San o.
+            trans: Hey, John!
+          - orig: o! ni li suli!
+            trans: Hey! This is heavy! (A little help, please.)
+          - orig: o pana e pona.
+            trans: A little help, please.
+          - orig: o jan lawa li seli lon anpa.
+            trans: May the captain fry in Hell.
   - term: oko
     primary:
       pos: n.
-      def: eye
-      sentences: []
-    secondary: []
-  - term: olin
-    primary:
-      pos: n.
-      def: love
+      def: eye (not in pu, covered by 'sike lukin' – generally ignored)
       sentences: []
     secondary:
       - pos: mod.
-        def: love
-      - pos: vt.
-        def: to love (a person)
+        def: optical
+  - term: olin
+    primary:
+      pos: vt.
+      def: to love (a person) (pu adds, 'have compassion for, respect') (not strong liking for things)
+      sentences: []
+    secondary:
+      - pos: n.
+        def: love, beloved
+      - pos: mod.
+        def: beloved, loving
   - term: ona
     primary:
       pos: n.
-      def: she, he, it, they
+      def: she, he, it, they (picks up a previous noun phrase, not an indefinite pronoun)
       sentences: []
     secondary:
       - pos: mod.
         def: her, his, its, their
   - term: open
     primary:
-      pos: vt.
-      def: open, turn on
-      sentences: []
-    secondary: []
-  - term: pakala
-    primary:
-      pos: n.
-      def: blunder, accident, mistake, destruction, damage, breaking
+      pos: prevb.
+      def: Start, begin commence, initiate
       sentences: []
     secondary:
+      - pos: vt.
+        def: open, turn on, start up
+      - pos: mod.
+        def: initial, starting, opening
+      - pos: cont.
+        def: to begin with, initially; in the beginning
+  - term: pakala
+    primary:
+      pos: mod.
+      def: botched, broken, damaged, harmed, messed up
+      sentences: []
+    secondary:
+      - pos: n.
+        def: blunder, accident, mistake, destruction, damage, breaking
       - pos: vt.
         def: screw up, fuck up, botch, ruin, break, hurt, injure, damage, spoil, ruin
       - pos: vi.
         def: screw up, fall apart, break
       - pos: interj.
         def: damn! fuck!
+  - term: pake
+    primary:
+      pos: prevb.
+      def: block (never official, but occasionally used for 'stop with possibility of continuing' vs. 'pini')
+      sentences: []
+    secondary: []
   - term: pali
     primary:
-      pos: n.
-      def: activity, work, deed, project
+      pos: vt.
+      def: do, make, build, create, work at/on, care for, cultivate, prepare
       sentences: []
     secondary:
-      - pos: mod.
-        def: active, work-related, operating, working
-      - pos: vt.
-        def: do, make, build, create
       - pos: vi.
         def: act, work, function
+      - pos: n.
+        def: activity, work, deed, project, trade, job, profession, act, action, function, cultivation
+      - pos: mod.
+        def: active, work-related, operating, working, creative, functioning, caring, busy
   - term: palisa
     primary:
       pos: n.
-      def: long, mostly hard object, e.g. rod, stick, branch
+      def: long, mostly hard object, e.g. rod, stick, branch, phallus, dildo
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: long, tall, thin
   - term: pan
     primary:
       pos: n.
-      def: grain, cereal
+      def: grain, cereal, barley, corn, oats, rice, wheat, etc.; bread, pasta; flour
       sentences: []
-    secondary: []
+    secondary:
+      - pos: vi.
+        def: to seed
   - term: pana
     primary:
       pos: vt.
-      def: give, put, send, place, release, emit, cause
+      def: give, put, send, place, release, emit, cause, transmit (action moves object outward from subject)
       sentences: []
     secondary:
       - pos: n.
-        def: giving, transfer, exchange
+        def: giving, transfer, exchange, sending, release, transmission, emission, radiation, donation; messenger/ambassador/representative
+      - pos: mod.
+        def: generous, radioactive
+  - term: pata
+    primary:
+      pos: n.
+      def: sibling (occasionally revived to replace 'jan sama')
+      sentences: []
+    secondary: []
   - term: pi
     primary:
       pos: sep.
-      def: of, belonging to
+      def: of, belonging to (sets off a unit of two or more words within an otherwise left grouping)
       sentences: []
     secondary: []
   - term: pilin
     primary:
-      pos: n.
-      def: feelings, emotion, heart
+      pos: vt.
+      def: feel, think, sense, touch, caress, fondle
       sentences: []
     secondary:
+      - pos: n.
+        def: feelings, emotion, heart; though, opinion; texture
       - pos: vi.
-        def: feel
-      - pos: vt.
-        def: feel, think, sense, touch
+        def: feel, be thinking
+      - pos: mod.
+        def: thoughtful, emotional, tactile
   - term: pimeja
     primary:
       pos: mod.
@@ -810,56 +866,70 @@ entries:
       sentences: []
     secondary:
       - pos: n.
-        def: darkness, shadows
+        def: darkness, shadows, blackness
       - pos: vt.
-        def: darken
+        def: darken, blacken
   - term: pini
     primary:
+      pos: prevb.
+      def: finish, end, stop
       pos: n.
       def: end, tip
       sentences: []
     secondary:
-      - pos: mod.
-        def: completed, finished, past, done, ago
       - pos: vt.
-        def: finish, close, end, turn off
+        def: turn off, close, extinguish
+      - pos: n.
+        def: end, tip, point
+      - pos: mod.
+        def: completed, finished, past, done, ago, sharp (prick, not cut)
   - term: pipi
     primary:
       pos: n.
-      def: bug, insect, spider
+      def: bug, insect, spider (indeed, any invertebrate not already spoken for)
       sentences: []
-    secondary: []
+    secondary:
+      - pos: mod.
+        def: insect, invertebrate
   - term: poka
     primary:
       pos: n.
-      def: side, hip, next to
+      def: side, hip, ribs; proximity; partnership, vicinity
       sentences: []
     secondary:
       - pos: prep.
         def: in the accompaniment of, with
       - pos: mod.
-        def: neighbouring
+        def: neighbouring, near, next to; partisan
   - term: poki
     primary:
       pos: n.
-      def: container, box, bowl, cup, glass
+      def: container, box, bowl, cup, glass, can, storage, cupboard, drawer, vessel, closet, shed
       sentences: []
     secondary: []
   - term: pona
     primary:
-      pos: n.
-      def: good, simplicity, positivity
+      pos: mod.
+      def: good, simple, positive, nice, correct, right, easy calm, friendly, useful
       sentences: []
     secondary:
-      - pos: mod.
-        def: good, simple, positive, nice, correct, right
+      - pos: n.
+        def: good, simplicity, positivity, ease
       - pos: interj.
         def: great! good! thanks! OK! cool! yay! yes.
         sentences:
           - orig: ona li pona anu seme? pona.
             trans: Is it good? Yes.
       - pos: vt.
-        def: improve, fix, repair, make good
+        def: improve, fix, repair, make good, cure, simplify, clean, quiet
+  - term: pu
+    primary:
+      pos: vi.
+      def: to interact with the official toki pona book
+      sentences: []
+    secondary:
+      - pos: mod.
+        def: so interacting, by the book
   - term: sama
     primary:
       pos: mod.
@@ -937,11 +1007,11 @@ entries:
   - term: sitelen
     primary:
       pos: n.
-      def: picture, image
+      def: picture, image, sculpture, figure, abstraction
       sentences: []
     secondary:
       - pos: vt.
-        def: draw, write
+        def: draw, write, sculpt, abstract
   - term: sona
     primary:
       pos: n.
